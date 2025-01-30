@@ -143,7 +143,7 @@ class MainPage(BasePage):
 ``pytest -v --tb=line --language=en test_main_page.py``
 5. Добавьте изменения и сделайте коммит (с осмысленным сообщением!)
 
-![Изображение](C:\Users\ealekseeva\selenium_course\selenium_pytest_Page_Object\images_for_Read_me\1.png "Структура")
+![Структура](C:\Users\ealekseeva\selenium_course\selenium_pytest_Page_Object\images_for_Read_me\1.jpg "Структура")
 
 ## Методы-проверки в Page Object
 Давайте теперь автоматизируем другой тест-кейс и посмотрим на его примере, как делать методы-проверки. 
@@ -385,7 +385,7 @@ def test_guest_can_go_to_login_page(browser):
 <br/>Сейчас оставьте второй вариант с явной инициализацией страниц в теле теста, чтобы избежать лишних сложностей с циклическими зависимостями. 
 
 Уберите лишний закомментированный код, и зафиксируйте изменения в коммите с осмысленным сообщением.
-![Изображение](C:\Users\ealekseeva\selenium_course\selenium_pytest_Page_Object\images_for_Read_me\2.png "Структура")
+![Структура](C:\Users\ealekseeva\selenium_course\selenium_pytest_Page_Object\images_for_Read_me\2.jpg "Структура")
 
 ## Удобство поддержки тестов — инкапсуляция бизнес-логики в методах
 Что делать, если изменилась логика взаимодействия со страницей, которая используется у нас в нескольких тестах? 
@@ -415,7 +415,7 @@ def go_to_login_page(self):
     - созаём в функции переменную page, которой передаём браузер из base_page.py(класс BasePage) и линк из шага №1
     - следом говорим "page, откройся", но методом из base_page.py(класс BasePage)
     - добавляем проверки, которые создавали методами в main_page.py
-
+![Схема проекта](C:\Users\ealekseeva\selenium_course\selenium_pytest_Page_Object\images_for_Read_me\3.jpg "Схема проекта")
 # Далее - примочки и лайвхаки в заданиях - [тут](https://stepik.org/lesson/201964/step/1?unit=176022)
 
 # Генерация тестовых данных в csv-файле - статья с примерами [тут](https://www.ontestautomation.com/writing-tests-for-restful-apis-in-python-using-requests-part-2-data-driven-tests/)
