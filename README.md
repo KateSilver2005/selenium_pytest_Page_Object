@@ -143,7 +143,7 @@ class MainPage(BasePage):
 ``pytest -v --tb=line --language=en test_main_page.py``
 5. Добавьте изменения и сделайте коммит (с осмысленным сообщением!)
 
-![Структура](C:\Users\ealekseeva\selenium_course\selenium_pytest_Page_Object\images_for_Read_me\1.jpg "Структура")
+![Структура](C:\Users\ealekseeva\selenium_course\selenium_pytest_Page_Object\images_for_Read_me\1.png "Структура")
 
 ## Методы-проверки в Page Object
 Давайте теперь автоматизируем другой тест-кейс и посмотрим на его примере, как делать методы-проверки. 
