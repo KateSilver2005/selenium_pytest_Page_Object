@@ -415,7 +415,7 @@ def go_to_login_page(self):
     - созаём в функции переменную page, которой передаём браузер из base_page.py(класс BasePage) и линк из шага №1
     - следом говорим "page, откройся", но методом из base_page.py(класс BasePage)
     - добавляем проверки, которые создавали методами в main_page.py
-![Схема проекта](https://github.com/KateSilver2005/selenium_pytest_Page_Object/blob/main/images_for_Read_me/3.jpg "Схема проекта")
 # Далее - примочки и лайвхаки в заданиях - [тут](https://stepik.org/lesson/201964/step/1?unit=176022)
+![Схема проекта](https://github.com/KateSilver2005/selenium_pytest_Page_Object/blob/main/images_for_Read_me/3.jpg "Схема проекта")
 
 # Генерация тестовых данных в csv-файле - статья с примерами [тут](https://www.ontestautomation.com/writing-tests-for-restful-apis-in-python-using-requests-part-2-data-driven-tests/)
