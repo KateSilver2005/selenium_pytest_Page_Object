@@ -415,3 +415,7 @@ def go_to_login_page(self):
     - созаём в функции переменную page, которой передаём браузер из base_page.py(класс BasePage) и линк из шага №1
     - следом говорим "page, откройся", но методом из base_page.py(класс BasePage)
     - добавляем проверки, которые создавали методами в main_page.py
+
+# Далее - примочки и лайвхаки в заданиях - [тут](https://stepik.org/lesson/201964/step/1?unit=176022)
+
+# Генерация тестовых данных в csv-файле - статья с примерами [тут](https://www.ontestautomation.com/writing-tests-for-restful-apis-in-python-using-requests-part-2-data-driven-tests/)
